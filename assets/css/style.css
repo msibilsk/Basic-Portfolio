@@ -3,60 +3,112 @@ body {
 	background-image: url(../images/symphony.png);
 }
 header {
+	/* display: block;? */
 	clear: both;
 	height: 90px;
 	width: 100%;
 	background-color: white;
-	margin-bottom: 40px;
+	border-bottom: 2px solid #dddddd;
 }
 h1 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	color: white;
 	background-color: #4aaaa5;
-	width: 15%;
+	width: 18%;
 	height: 90px;
 	float: left;
+	font-weight: bold;
 	font-size: 2em;
 	line-height: 2.5em;
 	text-align: center;
 	margin-left: 150px;
 }
 h2 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	color: #4aaaa5;
 }
 ul{
-	margin-left: 500px;
+	margin-left: 450px;
 	height: 90px;
-	width: 15%;
+	width: 30%;
 	float: left;
-	line-height: 4.5em;
+	line-height: 5em;
 }
 li {
-	color: #777777;
 	display: inline;
+	margin: 0px 10px;
+}
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+	color: #777777;
+	text-decoration: none;
 }
 #profilepic {
+	margin-right: 20px;
  	width: 200px;
  	height: 150px;
+ 	float: left;
 }
 #about_me {
-	height: 450px;
-	width: 650px;
+	height: 400px;
+	width: 600px;
 	margin-left: 150px;
 	background-color: white;
 	float: left;
+	border: 1px solid #dddddd;
+	padding: 25px;
+	font-weight: bold;
+	font-size: 1.5em;
 }
 .icon {
 	height: 60px;
 	width: 60px;
+	margin: 5px;
 }
 .connect {
-	width: 270px;
-	height:200px;
+	width: 220px;
+	height: 150px;
 	background-color: white;
 	float: left;
+	padding: 25px;
 	margin-left: 45px;
+	border: 1px solid #dddddd;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold;
 }
 .projectimg {
 	height: 130px;
 	width: 175px;
+}
+footer {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	line-height: 6em;
+	color: #bec7bd;
+	height: 70px;
+	background-color: #666666;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	font-size: .75em;
+}
+.container {
+	margin-top: 40px;
+	clear: both;
+	min-height: 560px;
+}
+hr {
+	margin-bottom: 25px;
+	border-color: #dcdcdc;
+	background-color: #dcdcdc;
+	border: 1px solid #dcdcdc;
+}
+.bio {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: .75em;
+	font-weight: normal;
+	color: #777777;
 }
