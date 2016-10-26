@@ -4,7 +4,7 @@ body {
 }
 
 header {
-	/* display: block;? */
+	/* do i want to make the height smaller? */
 	clear: both;
 	height: 90px;
 	width: 100%;
@@ -174,17 +174,18 @@ button {
 }
 
 .projectimg {
-	/* need to figure out better spacing */
 	height: 195px;
 	width: 263px;
 	position: relative;
 	float: left;
 	margin: 15px;
 }
+
 .leftimg {
 	margin-left: 0px;
 	margin-right: 37px;
 }
+
 .rightimg {
 	margin-right: 0px;
 	margin-left: 37px;
