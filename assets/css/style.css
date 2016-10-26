@@ -1,6 +1,6 @@
 body {
 	/* Background pattern from subtlepatterns.com */
-	background-image: url(../images/symphony.png);
+	background-image: url("../images/symphony.png");
 }
 
 header {
