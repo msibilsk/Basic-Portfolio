@@ -8,12 +8,11 @@ header {
 	clear: both;
 	height: 90px;
 	width: 100%;
-	background-color: white;
-	border-bottom: 2px solid #dddddd;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
 }
 
 h1 {
-	/* is this correct syntax for the font */
 	font-family: Georgia, Times, "Times New Roman", serif;
 	color: white;
 	background-color: #4aaaa5;
@@ -41,8 +40,7 @@ li {
 }
 
 a {
-	/* is this correct syntax for the font */
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: bold;
 	color: #777777;
 	text-decoration: none;
@@ -54,7 +52,6 @@ a {
 }
 
 h2 {
-	/* is this correct syntax for the font */
 	font-family: Georgia, Times, "Times New Roman", serif;
 	color: #4aaaa5;
 }
@@ -71,7 +68,7 @@ hr {
 	width: 600px;
 	margin-top: 40px;
 	margin-left: 150px;
-	background-color: white;
+	background-color: #ffffff;
 	float: left;
 	border: 1px solid #dddddd;
 	padding: 25px;
@@ -89,8 +86,8 @@ hr {
 
 .connect {
 	width: 220px;
-	height: 150px;
-	background-color: white;
+	min-height: 150px;
+	background-color: #ffffff;
 	float: left;
 	padding: 25px;
 	padding-top: 35px;
@@ -100,10 +97,11 @@ hr {
 	text-align: center;
 	font-size: 1.25em;
 	font-weight: bold;
+	height: auto;
 }
 
 footer {
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
@@ -126,7 +124,7 @@ footer {
 }
 
 .bio {
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: .75em;
 	font-weight: normal;
 	color: #777777;
@@ -135,7 +133,7 @@ footer {
 /* specific to contact.html page */
 
 label {
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: .75em;
 	font-weight: normal;
 	color: #777777;
