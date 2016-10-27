@@ -4,7 +4,6 @@ body {
 }
 
 header {
-	/* do i want to make the height smaller? */
 	clear: both;
 	height: 90px;
 	width: 100%;
@@ -114,7 +113,11 @@ footer {
 	font-size: .75em;
 }
 
-/* specific to index.html page */
+/*********************
+
+ specific to index.html page 
+
+ *********************/
 
 #profilepic {
 	margin-right: 20px;
@@ -130,7 +133,11 @@ footer {
 	color: #777777;
 }
 
-/* specific to contact.html page */
+/***********************
+
+ specific to contact.html page 
+
+ ************************/
 
 label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -164,7 +171,11 @@ button {
 	padding: 10px 20px;
 }
 
-/* specific to portfolio.html page */
+/************************
+
+ specific to portfolio.html page 
+
+ *************************/
 
 .portfolio_container
 {
