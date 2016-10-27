@@ -28,7 +28,7 @@ h1 {
 }
 
 ul {
-	margin-left: 450px;
+	margin-left: 33%;
 	height: 90px;
 	width: 25%;
 	float: left;
@@ -95,7 +95,7 @@ hr {
 	padding: 25px;
 	padding-top: 35px;
 	margin-top: 40px;
-	margin-left: 45px;
+	margin-left: 40px;
 	border: 1px solid #dddddd;
 	text-align: center;
 	font-size: 1.25em;
